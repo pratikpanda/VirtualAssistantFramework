@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Luis\" />
+    <Folder Include="Dialogflow\" />
+    <Folder Include="Watson\" />
+  </ItemGroup>
+
+</Project>

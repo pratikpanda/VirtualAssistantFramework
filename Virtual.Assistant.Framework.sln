@@ -1,0 +1,172 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{66002672-F17B-4A15-9289-D697BFC5DDF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{48DB6F7B-D0F8-4FFF-88E0-F745F1335E9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4AC62B0F-DA10-47BE-ABE2-B760A2618BE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Storage", "Storage", "{D9976F10-B045-40AA-8AA4-9C6427278611}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MachineLearning", "MachineLearning", "{B7408FEF-C3F3-4438-AA26-031BD6312D35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Conversation", "Conversation", "{BB66DEAC-1847-40EE-8756-FD28ACB5A36E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{D0B70A90-69D9-4700-A4E2-366AC559A595}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Specification", "Specification", "{1E9404A0-B020-4D13-9BEF-307B405F3E03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{E598DDCC-0AE9-4D81-8E84-E4F835437228}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{5BC69247-8AA9-4DB1-ABCC-AC4A15367256}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtual.Assistant.Framework.Storage.Cloud", "Libraries\Storage\Virtual.Assistant.Framework.Storage.Cloud\Virtual.Assistant.Framework.Storage.Cloud.csproj", "{E83B8AB0-3DA8-4422-8578-74587B6EA7C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtual.Assistant.Framework.Storage.OnPremise", "Libraries\Storage\Virtual.Assistant.Framework.Storage.OnPremise\Virtual.Assistant.Framework.Storage.OnPremise.csproj", "{78EBF94F-954C-4382-9493-53DFFC5C72F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtual.Assistant.Framework.Conversation.Dialogs", "Libraries\Conversation\Virtual.Assistant.Framework.Conversation.Dialogs\Virtual.Assistant.Framework.Conversation.Dialogs.csproj", "{1DAD6A2A-30EC-429E-AFAE-498CC426BA20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtual.Assistant.Framework.Conversation.Cards", "Libraries\Conversation\Virtual.Assistant.Framework.Conversation.Cards\Virtual.Assistant.Framework.Conversation.Cards.csproj", "{E2B279A4-6F70-43A7-98F7-F6D7E46F7E54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtual.Assistant.Framework.Integration.Connectors", "Libraries\Integration\Virtual.Assistant.Framework.Integration.Connectors\Virtual.Assistant.Framework.Integration.Connectors.csproj", "{E8FDF52A-CFB7-4B82-A2B5-9C7C1551310C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtual.Assistant.Framework.MachineLearning.NaturalLanguage", "Libraries\MachineLearning\Virtual.Assistant.Framework.MachineLearning.NaturalLanguage\Virtual.Assistant.Framework.MachineLearning.NaturalLanguage.csproj", "{CD0E4274-AB8A-4819-AF75-7AB28023095B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtual.Assistant.Framework.MachineLearning.Knowledgebase", "Libraries\MachineLearning\Virtual.Assistant.Framework.MachineLearning.Knowledgebase\Virtual.Assistant.Framework.MachineLearning.Knowledgebase.csproj", "{D8A2DE32-C313-4B3E-B810-2ACB8A874728}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtual.Assistant.Framework.Specification.Core", "Libraries\Specification\Virtual.Assistant.Framework.Specification.Core\Virtual.Assistant.Framework.Specification.Core.csproj", "{3124DFF4-3F08-415B-8DB6-602BB656A561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtual.Assistant.Framework.Specification.Cards", "Libraries\Specification\Virtual.Assistant.Framework.Specification.Cards\Virtual.Assistant.Framework.Specification.Cards.csproj", "{2DB6E8DC-9E86-4BDF-B81F-364612C60110}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{CDE0C72C-C8CB-471B-B4A2-D0D57D20996B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Monitoring", "Monitoring", "{00A7D9CE-D081-4397-9494-943268BC8A3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Analytics", "Analytics", "{18FCFB55-1A0D-4E68-82ED-1279DAAAF47C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtual.Assistant.Framework.Analytics.Cloud", "Libraries\Analytics\Virtual.Assistant.Framework.Analytics.Cloud\Virtual.Assistant.Framework.Analytics.Cloud.csproj", "{324C809B-85F5-4528-8576-E4F3207ADCAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtual.Assistant.Framework.Analytics.OnPremise", "Libraries\Analytics\Virtual.Assistant.Framework.Analytics.OnPremise\Virtual.Assistant.Framework.Analytics.OnPremise.csproj", "{792E38DB-9EF2-4050-99D9-8609492AC267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtual.Assistant.Framework.Identity.OnPremise", "Libraries\Identity\Virtual.Assistant.Framework.Identity.OnPremise\Virtual.Assistant.Framework.Identity.OnPremise.csproj", "{9F768C83-29FE-4D63-951F-505336D7D3E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtual.Assistant.Framework.Identity.Cloud", "Libraries\Identity\Virtual.Assistant.Framework.Identity.Cloud\Virtual.Assistant.Framework.Identity.Cloud.csproj", "{66D45323-5EFC-4793-B5BA-A68FA2BBFC3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E6761CDA-A681-4EEE-9EB5-600EBC72A057}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtual.Assistant.Framework.Core", "C:\Users\mailt\source\repos\VirtualAssistantFramework\Libraries\Core\Virtual.Assistant.Framework.Core\Virtual.Assistant.Framework.Core.csproj", "{0AB530DD-E732-4FEA-92CE-F5F21A97D1DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtual.Assistant.Framework.Monitoring.OnPremise", "Libraries\Monitoring\Virtual.Assistant.Framework.Monitoring.OnPremise\Virtual.Assistant.Framework.Monitoring.OnPremise.csproj", "{FB9F3768-B0F8-49EA-ABFD-A7A3FA609B72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtual.Assistant.Framework.Monitoring.Cloud", "Libraries\Monitoring\Virtual.Assistant.Framework.Monitoring.Cloud\Virtual.Assistant.Framework.Monitoring.Cloud.csproj", "{6E104BF7-FEEC-41D4-AB4B-F8C9E1B9EFA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E83B8AB0-3DA8-4422-8578-74587B6EA7C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83B8AB0-3DA8-4422-8578-74587B6EA7C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83B8AB0-3DA8-4422-8578-74587B6EA7C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E83B8AB0-3DA8-4422-8578-74587B6EA7C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78EBF94F-954C-4382-9493-53DFFC5C72F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78EBF94F-954C-4382-9493-53DFFC5C72F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78EBF94F-954C-4382-9493-53DFFC5C72F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78EBF94F-954C-4382-9493-53DFFC5C72F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DAD6A2A-30EC-429E-AFAE-498CC426BA20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DAD6A2A-30EC-429E-AFAE-498CC426BA20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DAD6A2A-30EC-429E-AFAE-498CC426BA20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DAD6A2A-30EC-429E-AFAE-498CC426BA20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2B279A4-6F70-43A7-98F7-F6D7E46F7E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B279A4-6F70-43A7-98F7-F6D7E46F7E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B279A4-6F70-43A7-98F7-F6D7E46F7E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B279A4-6F70-43A7-98F7-F6D7E46F7E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8FDF52A-CFB7-4B82-A2B5-9C7C1551310C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8FDF52A-CFB7-4B82-A2B5-9C7C1551310C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8FDF52A-CFB7-4B82-A2B5-9C7C1551310C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8FDF52A-CFB7-4B82-A2B5-9C7C1551310C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD0E4274-AB8A-4819-AF75-7AB28023095B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD0E4274-AB8A-4819-AF75-7AB28023095B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD0E4274-AB8A-4819-AF75-7AB28023095B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD0E4274-AB8A-4819-AF75-7AB28023095B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8A2DE32-C313-4B3E-B810-2ACB8A874728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A2DE32-C313-4B3E-B810-2ACB8A874728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A2DE32-C313-4B3E-B810-2ACB8A874728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A2DE32-C313-4B3E-B810-2ACB8A874728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3124DFF4-3F08-415B-8DB6-602BB656A561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3124DFF4-3F08-415B-8DB6-602BB656A561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3124DFF4-3F08-415B-8DB6-602BB656A561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3124DFF4-3F08-415B-8DB6-602BB656A561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DB6E8DC-9E86-4BDF-B81F-364612C60110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DB6E8DC-9E86-4BDF-B81F-364612C60110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DB6E8DC-9E86-4BDF-B81F-364612C60110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DB6E8DC-9E86-4BDF-B81F-364612C60110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{324C809B-85F5-4528-8576-E4F3207ADCAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324C809B-85F5-4528-8576-E4F3207ADCAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324C809B-85F5-4528-8576-E4F3207ADCAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324C809B-85F5-4528-8576-E4F3207ADCAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{792E38DB-9EF2-4050-99D9-8609492AC267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{792E38DB-9EF2-4050-99D9-8609492AC267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{792E38DB-9EF2-4050-99D9-8609492AC267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{792E38DB-9EF2-4050-99D9-8609492AC267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F768C83-29FE-4D63-951F-505336D7D3E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F768C83-29FE-4D63-951F-505336D7D3E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F768C83-29FE-4D63-951F-505336D7D3E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F768C83-29FE-4D63-951F-505336D7D3E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66D45323-5EFC-4793-B5BA-A68FA2BBFC3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D45323-5EFC-4793-B5BA-A68FA2BBFC3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D45323-5EFC-4793-B5BA-A68FA2BBFC3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D45323-5EFC-4793-B5BA-A68FA2BBFC3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB530DD-E732-4FEA-92CE-F5F21A97D1DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB530DD-E732-4FEA-92CE-F5F21A97D1DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB530DD-E732-4FEA-92CE-F5F21A97D1DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB530DD-E732-4FEA-92CE-F5F21A97D1DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB9F3768-B0F8-49EA-ABFD-A7A3FA609B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB9F3768-B0F8-49EA-ABFD-A7A3FA609B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB9F3768-B0F8-49EA-ABFD-A7A3FA609B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB9F3768-B0F8-49EA-ABFD-A7A3FA609B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E104BF7-FEEC-41D4-AB4B-F8C9E1B9EFA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E104BF7-FEEC-41D4-AB4B-F8C9E1B9EFA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E104BF7-FEEC-41D4-AB4B-F8C9E1B9EFA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E104BF7-FEEC-41D4-AB4B-F8C9E1B9EFA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D9976F10-B045-40AA-8AA4-9C6427278611} = {66002672-F17B-4A15-9289-D697BFC5DDF6}
+		{B7408FEF-C3F3-4438-AA26-031BD6312D35} = {66002672-F17B-4A15-9289-D697BFC5DDF6}
+		{BB66DEAC-1847-40EE-8756-FD28ACB5A36E} = {66002672-F17B-4A15-9289-D697BFC5DDF6}
+		{D0B70A90-69D9-4700-A4E2-366AC559A595} = {66002672-F17B-4A15-9289-D697BFC5DDF6}
+		{1E9404A0-B020-4D13-9BEF-307B405F3E03} = {66002672-F17B-4A15-9289-D697BFC5DDF6}
+		{E598DDCC-0AE9-4D81-8E84-E4F835437228} = {4AC62B0F-DA10-47BE-ABE2-B760A2618BE7}
+		{5BC69247-8AA9-4DB1-ABCC-AC4A15367256} = {4AC62B0F-DA10-47BE-ABE2-B760A2618BE7}
+		{E83B8AB0-3DA8-4422-8578-74587B6EA7C0} = {D9976F10-B045-40AA-8AA4-9C6427278611}
+		{78EBF94F-954C-4382-9493-53DFFC5C72F5} = {D9976F10-B045-40AA-8AA4-9C6427278611}
+		{1DAD6A2A-30EC-429E-AFAE-498CC426BA20} = {BB66DEAC-1847-40EE-8756-FD28ACB5A36E}
+		{E2B279A4-6F70-43A7-98F7-F6D7E46F7E54} = {BB66DEAC-1847-40EE-8756-FD28ACB5A36E}
+		{E8FDF52A-CFB7-4B82-A2B5-9C7C1551310C} = {D0B70A90-69D9-4700-A4E2-366AC559A595}
+		{CD0E4274-AB8A-4819-AF75-7AB28023095B} = {B7408FEF-C3F3-4438-AA26-031BD6312D35}
+		{D8A2DE32-C313-4B3E-B810-2ACB8A874728} = {B7408FEF-C3F3-4438-AA26-031BD6312D35}
+		{3124DFF4-3F08-415B-8DB6-602BB656A561} = {1E9404A0-B020-4D13-9BEF-307B405F3E03}
+		{2DB6E8DC-9E86-4BDF-B81F-364612C60110} = {1E9404A0-B020-4D13-9BEF-307B405F3E03}
+		{CDE0C72C-C8CB-471B-B4A2-D0D57D20996B} = {66002672-F17B-4A15-9289-D697BFC5DDF6}
+		{00A7D9CE-D081-4397-9494-943268BC8A3B} = {66002672-F17B-4A15-9289-D697BFC5DDF6}
+		{18FCFB55-1A0D-4E68-82ED-1279DAAAF47C} = {66002672-F17B-4A15-9289-D697BFC5DDF6}
+		{324C809B-85F5-4528-8576-E4F3207ADCAC} = {18FCFB55-1A0D-4E68-82ED-1279DAAAF47C}
+		{792E38DB-9EF2-4050-99D9-8609492AC267} = {18FCFB55-1A0D-4E68-82ED-1279DAAAF47C}
+		{9F768C83-29FE-4D63-951F-505336D7D3E8} = {CDE0C72C-C8CB-471B-B4A2-D0D57D20996B}
+		{66D45323-5EFC-4793-B5BA-A68FA2BBFC3F} = {CDE0C72C-C8CB-471B-B4A2-D0D57D20996B}
+		{E6761CDA-A681-4EEE-9EB5-600EBC72A057} = {66002672-F17B-4A15-9289-D697BFC5DDF6}
+		{0AB530DD-E732-4FEA-92CE-F5F21A97D1DF} = {E6761CDA-A681-4EEE-9EB5-600EBC72A057}
+		{FB9F3768-B0F8-49EA-ABFD-A7A3FA609B72} = {00A7D9CE-D081-4397-9494-943268BC8A3B}
+		{6E104BF7-FEEC-41D4-AB4B-F8C9E1B9EFA3} = {00A7D9CE-D081-4397-9494-943268BC8A3B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F55169F6-2C4B-42C2-A675-1B4F89B21218}
+	EndGlobalSection
+EndGlobal
